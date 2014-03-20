@@ -14,157 +14,97 @@
 
         <link rel="stylesheet" href="http://trinyanto.github.io/theme/css/normalize.css">
         <link rel="stylesheet" href="http://trinyanto.github.io/theme/css/main.css">
+        <link rel="stylesheet" href="http://trinyanto.github.io/theme/css/style.css">
         <script src="http://trinyanto.github.io/theme/js/vendor/modernizr-2.6.2.min.js"></script>
-        <script src="http://trinyanto.github.io/theme/js/jquery.min.js"></script>
-
-       <style>
-        a
-        {
-          color: #08088A;
-          text-decoration: none;
-        }
-        #accordian li {
-          list-style-type: none;
-        }
-
-        #accordian ul ul {
-          display: none;
-        }
-       </style>
-
-       <script>
-       $(document).ready(function(){
-          $("#accordian span").click(function()
-          {
-            $("#accordian ul ul").slideUp();
-            $("#accordian span").attr('class', 'icon-right-dir');
-
-            if(!$(this).next().is(":visible"))
-            {
-              $(this).next().slideDown();
-              $(this).attr('class','icon-down-dir');
-    
-            }
-            else
-            {
-              $(this).attr('class','icon-right-dir');
-            }
-          })
-        })
-       </script>
-
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+       
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
             <link rel="stylesheet" href="css/fontello-ie7.css">
         <![endif]-->
-        
+      
     <header class="clearfix">
         <section class="container">
-        <a href="">
-          <div width="256" height="94">
-            <h2> blog1 </h2>
-            <h4> tara </h4>
-          </div>
-        </a>
         <nav>
-        <ul>
-        <li><a href="http://trinyanto.github.io/index.html"> <i class="icon-home-1"></i></a></li>
-        <li><a href="http://trinyanto.github.io/about.html"><i class="icon-info-circled"></i></a></li>
-        <li><a href="http://trinyanto.github.io/atom.xml"><i class="icon-rss"></i></a></li>
-        </ul>
+            <ul>
+                <li><a href="http://trinyanto.github.io/about.html">About  </a>  </li>
+                <li><a href="">Recent + </a>  </li>
+                <li><a href="">Archives + </a>  </li>
+                <li><a href="">Categories +</a>  </li>
+            </ul>
         </nav>
+        <div class="feed"><a href="http://trinyanto.github.io/atom.xml"><i class="icon-rss"></a></i></div>
+        <div id="logobox" class="content-box">
+            
+            <div class="logo"><img src="http://trinyanto.github.io/theme/img/vintage-logo.png" alt=""></div>
+            <a href = "http://trinyanto.github.io"><div class="vintage-text">
+                <h1><strong>blog1</strong></h1>
+                <p>tara</p>
+            </div></a>
+        </div>
       </section>
     
         </header>
         
+        
 
 <div class="main clearfix">
-    <section class="container" id="posts">
-        
-        <div class="left-container">
-      					<article class="list clearfix">
-          					<h3><a href = "http://trinyanto.github.io/2014/03/20/testing.html">testing</a></h3>
-         					<span class="by">Posted by the user on 20 Mar 2014.</span>
-        					<p>
+		<section id="posts" class="container">
+            
+            <article class="content-box">
+                <div class="date">20<span>Mar</span></div>
+                <h1>testing</h1>
+                <img src="http://trinyanto.github.io/theme/img/post1.jpg" alt="">
+                <p>
 
 first post.</p>
-        
-        
-    						<div class="socialbar">
-		                    <div class="clearfix"></div>
-			                    <ul>
-			                        <li>
-			                        
-			                        </li>
-			                        <li><i class="icon-comment"></i> <span>
-                                        
-		                                <fb:comments-count href=http://trinyanto.github.io/2014/03/20/testing.html></fb:comments-count>
-                                            
-                                    </span></li>
-			                        <li class="push-right">
-			                            <a href="https://twitter.com/intent/tweet?text=http://trinyanto.github.io/2014/03/20/testing.html"><i class="icon-twitter-circled"></i></a>
-                                        <a href="http://www.facebook.com/share.php?u=http://trinyanto.github.io/2014/03/20/testing.html" onclick="javascript:window.open(this.href,
-                                            '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="icon-facebook-circled"></i></a>
-                                        <a href="https://plus.google.com/share?url=http://trinyanto.github.io/2014/03/20/testing.html" onclick="javascript:window.open(this.href,
-                                            '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="icon-gplus-circled"></i></a>
-			                        </li>
-			                    </ul>
-                			</div>    
-      					</article>
-
-
-	      	<div class="socialbar">
-	            <div class="clearfix"></div>
-	                <ul>
-	                	
-	                    
-	                </ul>
-	            </div>
-	        </div>  
-	        
-
-
-<div class="right-container">
-          <div class="right-col">
-          <h3>ABOUT</h3>
-          <p>Hello this is my first Statiked Blog. To change the contents of this short introduction, change short_introduction.html file in _includes</p>
-          </div>
-          
-          <div class="right-col">
-          <h3>ARCHIVES</h3>
-          <div id="accordian">
-          <ul>
-            
-            
-                
-                <li>
-                  <span class="icon-right-dir"><i>2014</i></span>
-                <ul>
-                <li><a href="http://trinyanto.github.io/2014/03/20/testing.html">testing</a></li>
-
-          </ul>
-         </div>
-          </div>
-          
-     <div class="right-col">
-          <h3>CATEGORIES</h3>
-          <div id="accordian">
-            <ul>
-            
-          </ul>
-         
-          </div>     
-          
-        </div>
-        
+                <a href="http://trinyanto.github.io/2014/03/20/testing.html" class="more">read more</a>
+                <div class="socialbar">
+                    <div class="clearfix"></div>
+                    <ul>
+                        <li></li>
+                        <li><i class="icon-comment"></i> <span> 
+                                <fb:comments-count href=http://trinyanto.github.io/2014/03/20/testing.html></fb:comments-count>
+                                 </span></li>
+                        <li class="push-right">
+                            <a href="https://twitter.com/intent/tweet?text=http://trinyanto.github.io/2014/03/20/testing.html"><i class="icon-twitter-circled"></i></a>
+                            <a href="http://www.facebook.com/share.php?u=http://trinyanto.github.io/2014/03/20/testing.html" onclick="javascript:window.open(this.href,
+                                '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="icon-facebook-circled"></i></a>
+                            <a href="https://plus.google.com/share?url=http://trinyanto.github.io/2014/03/20/testing.html" onclick="javascript:window.open(this.href,
+                                '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="icon-gplus-circled"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
         </section>
+
+
+        <div class="pagecontroles container">
+           
+            
+            
         </div>
-        
-        <footer class="clearfix">
-        <div class="container">
-        <div class="left-container"><a href="#">Snowhite</a> | <a href="#">All Rights Reserved.</a></div>
+</div>
+
+        <footer>
+        <div class="container" id="footer">
+        <div class="col-180">
+        <h3>ABOUT</h3>
+        Hello this is my first Statiked Blog. To change the contents of this short introduction, change short_introduction.html file in _includes
+        </div>
+        <div class="col-180"><h3>POPULAR POST</h3>
+        <ul class="list">
+        <li>
+        <a href="http://trinyanto.github.io/2014/03/20/testing.html">testing</a>
+        </li>
+
+        </ul>
+        </div>
+        </div>
+       <div class="sub-footer container">
+        <div class="left-container"><a href="#">THE VINTAGE BLOG  </a> | <a href="#">All Rights Reserved.</a></div>
          <div class="right-container">Blog theme by : <a href="#">Statiked</a></div>
         </div>
         </footer>
@@ -175,8 +115,24 @@ first post.</p>
 
         <script src="http://trinyanto.github.io/theme/js/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="http://trinyanto.github.io/theme/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script defer src="http://trinyanto.github.io/theme/js/jquery.flexslider-min.js"></script>
+        
         <script src="http://trinyanto.github.io/theme/js/plugins.js"></script>
         <script src="http://trinyanto.github.io/theme/js/main.js"></script>
+          <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -192,7 +148,7 @@ first post.</p>
     })();
   </script>
         
-
+        
         
 
         
