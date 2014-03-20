@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[blog1]]></title>
+  <link href="http://trinyanto.github.io/atom.xml" rel="self"/>
+  <link href="http://trinyanto.github.io/"/>
+  <updated>2014-03-20T16:13:06+05:30</updated>
+  <id>http://trinyanto.github.io/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    <email><![CDATA[]]></email>
+  </author>
+  <generator uri="http://www.statiked.com/">Statiked</generator>
+
+  <entry>
+    <title type="html"><![CDATA[testing]]></title>
+    <link href="http://trinyanto.github.io/2014/03/20/testing.html"/>
+    <updated>2014-03-20T10:43:02+00:00</updated>
+    <id>http://trinyanto.github.io/2014/03/20/testing.html</id>
+    <content type="html"><![CDATA[<p>first post.</p>
+]]></content>
+  </entry>
+
+  
+</feed>

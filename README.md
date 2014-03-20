@@ -1,2 +1,0 @@
-trinyanto.github.io
-===================
