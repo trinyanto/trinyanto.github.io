@@ -1,31 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[my blog]]></title>
-  <link href="http://trinyanto.github.io/atom.xml" rel="self"/>
-  <link href="http://trinyanto.github.io/"/>
-  <updated>2014-03-24T18:18:48+05:30</updated>
-  <id>http://trinyanto.github.io/</id>
+  <title><![CDATA[blog1]]></title>
+  <link href="/atom.xml" rel="self"/>
+  <link href="/"/>
+  <updated>2014-03-25T14:23:27+05:30</updated>
+  <id>/</id>
   <author>
     <name><![CDATA[]]></name>
-    <email><![CDATA[antony.triny@gmail.com]]></email>
+    <email><![CDATA[]]></email>
   </author>
   <generator uri="http://www.statiked.com/">Statiked</generator>
 
   <entry>
-    <title type="html"><![CDATA[post#2]]></title>
-    <link href="http://trinyanto.github.io/2014/03/24/post#2/index.html"/>
-    <updated>2014-03-24T12:13:19+00:00</updated>
-    <id>http://trinyanto.github.io/2014/03/24/post#2/index.html</id>
-    <content type="html"><![CDATA[<p>this is second post.</p>
-]]></content>
+    <title type="html"><![CDATA[second post]]></title>
+    <link href="/2014/03/25/second-post.html"/>
+    <updated>2014-03-25T08:53:27+00:00</updated>
+    <id>/2014/03/25/second-post.html</id>
+    <content type="html"><![CDATA[<p>the is another post.</p>]]></content>
   </entry>
 <entry>
-    <title type="html"><![CDATA[first post]]></title>
-    <link href="http://trinyanto.github.io/2014/03/24/first_post/index.html"/>
-    <updated>2014-03-24T12:43:54+00:00</updated>
-    <id>http://trinyanto.github.io/2014/03/24/first_post/index.html</id>
-    <content type="html"><![CDATA[<p>help world! edited</p>
+    <title type="html"><![CDATA[this is sorta]]></title>
+    <link href="/2014/03/24/this-is-sorta.html"/>
+    <updated>2014-03-25T08:51:27+00:00</updated>
+    <id>/2014/03/24/this-is-sorta.html</id>
+    <content type="html"><![CDATA[<p>buhshah</p>
 ]]></content>
   </entry>
 

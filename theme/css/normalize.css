@@ -153,11 +153,6 @@ h6 {
     margin: 2.33em 0;
 }
 
-p{
-    line-height:170%;
-    text-align:left;
-}
-
 /**
  * Address styling not present in IE 7/8/9, Safari 5, and Chrome.
  */
