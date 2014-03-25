@@ -4,7 +4,7 @@
   <title><![CDATA[blog1]]></title>
   <link href="http://trinyanto.github.io/atom.xml" rel="self"/>
   <link href="http://trinyanto.github.io/"/>
-  <updated>2014-03-25T16:15:53+05:30</updated>
+  <updated>2014-03-25T16:17:01+05:30</updated>
   <id>http://trinyanto.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -13,6 +13,13 @@
   <generator uri="http://www.statiked.com/">Statiked</generator>
 
   <entry>
+    <title type="html"><![CDATA[third post]]></title>
+    <link href="http://trinyanto.github.io/2014/03/25/third-post.html"/>
+    <updated>2014-03-25T10:47:01+00:00</updated>
+    <id>http://trinyanto.github.io/2014/03/25/third-post.html</id>
+    <content type="html"><![CDATA[<p>this is a test post from mar edit .</p>]]></content>
+  </entry>
+<entry>
     <title type="html"><![CDATA[second post]]></title>
     <link href="http://trinyanto.github.io/2014/03/25/second-post.html"/>
     <updated>2014-03-25T08:53:27+00:00</updated>
