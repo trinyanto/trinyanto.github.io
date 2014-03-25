@@ -4,7 +4,7 @@
   <title><![CDATA[blog1]]></title>
   <link href="http://trinyanto.github.io/atom.xml" rel="self"/>
   <link href="http://trinyanto.github.io/"/>
-  <updated>2014-03-25T16:20:54+05:30</updated>
+  <updated>2014-03-25T16:22:36+05:30</updated>
   <id>http://trinyanto.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -14,23 +14,23 @@
 
   <entry>
     <title type="html"><![CDATA[third post]]></title>
-    <link href="http://trinyanto.github.io/2014/03/25/third-post.html"/>
+    <link href="http://trinyanto.github.io/2014/03/25/third-post/index.html"/>
     <updated>2014-03-25T10:47:01+00:00</updated>
-    <id>http://trinyanto.github.io/2014/03/25/third-post.html</id>
+    <id>http://trinyanto.github.io/2014/03/25/third-post/index.html</id>
     <content type="html"><![CDATA[<p>this is a test post from mar edit .</p>]]></content>
   </entry>
 <entry>
     <title type="html"><![CDATA[second post]]></title>
-    <link href="http://trinyanto.github.io/2014/03/25/second-post.html"/>
+    <link href="http://trinyanto.github.io/2014/03/25/second-post/index.html"/>
     <updated>2014-03-25T08:53:27+00:00</updated>
-    <id>http://trinyanto.github.io/2014/03/25/second-post.html</id>
+    <id>http://trinyanto.github.io/2014/03/25/second-post/index.html</id>
     <content type="html"><![CDATA[<p>the is another post.</p>]]></content>
   </entry>
 <entry>
     <title type="html"><![CDATA[this is sorta]]></title>
-    <link href="http://trinyanto.github.io/2014/03/24/this-is-sorta.html"/>
+    <link href="http://trinyanto.github.io/2014/03/24/this-is-sorta/index.html"/>
     <updated>2014-03-25T08:51:27+00:00</updated>
-    <id>http://trinyanto.github.io/2014/03/24/this-is-sorta.html</id>
+    <id>http://trinyanto.github.io/2014/03/24/this-is-sorta/index.html</id>
     <content type="html"><![CDATA[<p>buhshah</p>
 ]]></content>
   </entry>
