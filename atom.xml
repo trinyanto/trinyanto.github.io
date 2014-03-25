@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[blog1]]></title>
-  <link href="/atom.xml" rel="self"/>
-  <link href="/"/>
-  <updated>2014-03-25T14:23:27+05:30</updated>
-  <id>/</id>
+  <link href="http://trinyanto.github.io/atom.xml" rel="self"/>
+  <link href="http://trinyanto.github.io/"/>
+  <updated>2014-03-25T16:15:53+05:30</updated>
+  <id>http://trinyanto.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
     <email><![CDATA[]]></email>
@@ -14,16 +14,16 @@
 
   <entry>
     <title type="html"><![CDATA[second post]]></title>
-    <link href="/2014/03/25/second-post.html"/>
+    <link href="http://trinyanto.github.io/2014/03/25/second-post.html"/>
     <updated>2014-03-25T08:53:27+00:00</updated>
-    <id>/2014/03/25/second-post.html</id>
+    <id>http://trinyanto.github.io/2014/03/25/second-post.html</id>
     <content type="html"><![CDATA[<p>the is another post.</p>]]></content>
   </entry>
 <entry>
     <title type="html"><![CDATA[this is sorta]]></title>
-    <link href="/2014/03/24/this-is-sorta.html"/>
+    <link href="http://trinyanto.github.io/2014/03/24/this-is-sorta.html"/>
     <updated>2014-03-25T08:51:27+00:00</updated>
-    <id>/2014/03/24/this-is-sorta.html</id>
+    <id>http://trinyanto.github.io/2014/03/24/this-is-sorta.html</id>
     <content type="html"><![CDATA[<p>buhshah</p>
 ]]></content>
   </entry>
